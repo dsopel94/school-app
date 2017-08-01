@@ -1,0 +1,497 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  background-color:#d3f8d3;
+}
+
+html {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pre {
+  background-image: url('https://i.ytimg.com/vi/n3brytBOv6E/maxresdefault.jpg');
+  background-position: top left;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  margin-right:150px;
+}
+
+h1 {
+  font-family: Tahoma;
+
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 30px;
+  color: #1a1a1a;
+  padding-left: 100px;
+}
+
+label {
+  font-family: Arial;
+  font-size: 20px;
+  color: #1a1a1a;
+  float: left;
+  clear: left;
+  width: 95px;
+  display: inline-block;
+  padding-right: 7px;
+}
+
+.sign-up-field-line label {
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.login-field-line label {
+  margin-bottom: 5px;
+}
+
+.confirm-msg {
+  margin-bottom: 30px;
+}
+
+.confirm-buttons {
+  position: relative;
+  right: 80px;
+}
+
+.add-coursename-field-line input {
+  display: inline-block;
+  width: 200px;
+}
+
+.add-coursename-field-line label {
+  display: inline-block;
+  width: 300px;
+  float: left;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.field-line label {
+  display: inline-block;
+  width: 88px;
+  float: left;
+  clear: left;
+  text-align: right;
+  margin-top: -4px;
+}
+
+.field-line input {
+  display: inline-block;
+  width: 175px;
+}
+
+.add-student-field-line label {
+  display: inline-block;
+  width: 95px;
+  float: left;
+  clear: left;
+  text-align: right;
+  padding-right: 6px;
+}
+
+.add-student-field-line input {
+  display: inline-block;
+  width: 150px;
+}
+
+.edit-student-field-line label {
+  display: inline-block;
+  width: 95px;
+  float: left;
+  clear: left;
+  text-align: right;
+  padding-right: 6px;
+}
+
+.edit-student-field-line input {
+  display: inline-block;
+}
+
+input {
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 480px;
+}
+
+input:focus {
+  color: #778899;
+}
+
+.error-msg {
+  text-align: center;
+}
+
+.login-error-msg {
+  margin-right: 50%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.login-info {
+  margin-left: 75px;
+}
+
+.sign-up-button {
+  margin-top: 10px;
+  margin-left: 10%;
+  padding: 15px 15px;
+  width: 25%;
+}
+
+.sign-up h2 {
+  margin-left: 20px;
+}
+
+.signup-redirect, .login-redirect {
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+
+
+.signup-redirect {
+  margin-top: 10px;
+  margin-left: 0%;
+}
+
+.getting-started {
+  text-align: center;
+  font-size: 13;
+}
+
+.demo-account-info {
+  margin-left: 0%;
+}
+
+.greeting {
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 30px;
+  color:#1a1a1a;
+  text-align: center;
+}
+
+.login-button {
+  margin-left: 11%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.login h2 {
+  margin-left: 6%;
+}
+
+.login {
+  margin-top: 10px;
+}
+
+
+.dashboard-links li {
+  float: right;
+  display: inline;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+.dashboard-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.edit-course-nav-options ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.edit-course-nav-options li {
+  float: right;
+  display: inline;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+.app-name {
+  font-family: Palatino;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: black;
+}
+
+.student-app-name {
+  font-family: Palatino;
+  float: left;
+  margin-top: 7px;
+  margin-left: 10px;
+  color: black;
+}
+
+.dashboard-links, .course-page, .add-course-nav-options, .edit-course-nav-options, .add-student-nav-options, .edit-student-nav-options, .nav-options {
+  height:35px;
+  background-color:beige;
+  width:100%;
+  border-bottom: solid black 2px;
+  margin-bottom: 7px;
+  padding-top: 7px;
+}
+
+.edit-student-nav-options li {
+  display: inline;
+  float: right;
+  margin-left: 7px;
+  margin-right: 10px;
+  margin-top: -18px;
+}
+
+.add-course-nav-options li {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+  margin-top: -10px;
+}
+
+.add-course-header {
+  text-align: center;
+}
+
+.add-course {
+  display: block;
+  position: absolute;
+  top:50px;
+  left: 5px;
+}
+
+.edit-course-name {
+  margin-left: 3%;
+  margin-top: -30px;
+}
+
+.add-course-container {
+  position: absolute;
+  left: 23%;
+}
+
+.edit-student-nav-options ul {
+  list-style-type: none;
+}
+
+.nav-options li {
+  display: inline;
+  float: right;
+  padding-left: 7px;
+  padding-right: 10px;
+}
+
+.course-app-name {
+  font-family: Palatino;
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+  color: black;
+}
+
+.course-page h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.studentList html {
+  font-style: Arial;
+  margin-left: 275px;
+}
+
+.student-button button {
+  position: relative;
+  left: 27%;
+  display: inline;
+}
+
+.course-page h2 {
+  margin-left: 560px
+}
+
+.studentList {
+  margin-left: 220px;
+}
+
+.sign-up-field-line {
+  margin-left: 70px;
+}
+
+.login-field-line {
+  margin-left: 50px;
+}
+
+.student-info-box {
+  position: absolute;
+  left: 57%;
+  transform: translateY(-25%);
+  display: inline;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 42%;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-bottom: 10px;
+  margin-top: 5px;
+  transition: 0.3s;
+  background-color: beige;
+  text-align: center;
+}
+
+.student-info-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.student-buttons {
+  margin-right: 70px;
+}
+
+.nav-options ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.edit-student {
+  background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 30px;
+margin-left: 110px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 10px
+
+}
+
+.student-name h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.edit-course-nav-options ul {
+  list-style-type: none;
+  margin-left: 1275px;
+}
+
+.edit-course-nav-options li {
+  padding-left: 7px;
+  display: inline;
+  float: right;
+  padding-right: 10px;
+  margin-top: -4px;
+}
+
+
+.add-student-nav-options ul {
+  float: right;
+  list-style-type: none;
+  margin-top: -2px;
+}
+.add-student-nav-options li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Palatino;
+}
+
+.add-coursename-field-line {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.add-course-container button {
+  margin-left: 325px;
+  margin-top: 15px;
+}
+
+.info h1 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-left: 46px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.info {
+  margin: 0 auto;
+}
+
+.info p {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: bold;
+  text-align: center;
+  font-style: Tahoma;
+}
+
+.main-info {
+  margin-top: 120px;
+}
+
+.return-link {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.return-link {
+  text-align: center;
+}
+
+
+.courses {
+  margin-left: 690px;
+  margin-top: 0px;
+}
+
+
+.dashboard-your-courses {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.dashboard-your-courses h2 {
+  color: #778899;
+}
