@@ -140,7 +140,7 @@ self.addEventListener('install', function(e) {
       'navigate' === e.request.mode &&
       isPathWhitelisted(['^(?!\\/__).*'], e.request.url) &&
       ((n = new URL(
-        '/school-app/build/index.html',
+        'index.html',
         self.location
       ).toString()), (t = urlsToCacheKeys.has(n))), t &&
       e.respondWith(
