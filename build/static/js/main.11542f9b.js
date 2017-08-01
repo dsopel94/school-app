@@ -9309,7 +9309,8 @@
   function(e, t, n) {
     'use strict';
     function r() {
-      'serviceWorker' in navigator &&
+      navigator.hasOwnProperty('serviceWorker') &&
+        'serviceWorker' in navigator &&
         window.addEventListener('load', function() {
           navigator.serviceWorker
             .register('/school-app/build/service-worker.js')
