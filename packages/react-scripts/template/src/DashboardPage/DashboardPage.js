@@ -22,7 +22,7 @@ class DashboardPage extends React.Component {
 
   onClick(event) {
     event.preventDefault();
-    window.location = '/courses/' + event.target.id;
+    window.location.href = '/courses/' + event.target.id;
   }
 
   handleLogout(event) {

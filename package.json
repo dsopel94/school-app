@@ -5,7 +5,7 @@
     "create-react-app": "tasks/cra.sh",
     "e2e": "tasks/e2e-simple.sh",
     "publish": "tasks/release.sh",
-    "start": "concurrently \"npm run client\" \"npm run server\" ",
+    "start": "npm run server",
     "server": "node packages/react-scripts/template/src/server/index.js",
     "client": "node packages/react-scripts/scripts/start.js",
     "test": "node packages/react-scripts/scripts/test.js --env=jsdom",
