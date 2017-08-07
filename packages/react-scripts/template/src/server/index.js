@@ -78,7 +78,7 @@ const localLoginStrategy = require('./passport/local-login');
 
 // Start the server
 app.listen(config.port);
-console.log('Your server is running on port 3000.');
+console.log('Your server is running on port 3001.');
 runServer();
 
 // export default app;
